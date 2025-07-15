@@ -1,6 +1,5 @@
 
-// Navigation Bar - https://github.com/RhythmusByte/Nav-Bar
-
+// Navigation Bar 
 const toggleBtn = document.querySelector('.menu');
 const toggleBtnIcon = toggleBtn.querySelector('i');
 const dropDownMenu = document.querySelector('.dropdown-menu');
@@ -12,13 +11,11 @@ toggleBtn.onclick = function () {
   toggleBtnIcon.classList.toggle('fa-xmark', isOpen);
 };
 
-
-
-// Typewriter effect - https://css-tricks.com/snippets/css/typewriter-effect/
+// Typewriter effect 
 var aText = new Array(
 "Hi, I’m Amisha - UX designer and design system specialist."
 );
-var iSpeed = 90; 
+var iSpeed = 44; 
 var iIndex = 0; 
 var iArrLength = aText[0].length; 
 var iScrollAt = 20; 
